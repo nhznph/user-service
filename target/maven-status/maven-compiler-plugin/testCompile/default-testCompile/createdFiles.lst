@@ -1,0 +1,3 @@
+com\dxc\user\Service\UserServiceTest.class
+com\dxc\user\delegate\UserDelegateTest.class
+com\dxc\user\UserServiveApplicationTests.class

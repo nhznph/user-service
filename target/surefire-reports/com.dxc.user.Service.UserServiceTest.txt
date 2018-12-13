@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.dxc.user.Service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in com.dxc.user.Service.UserServiceTest
