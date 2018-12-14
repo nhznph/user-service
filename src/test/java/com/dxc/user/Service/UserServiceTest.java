@@ -197,14 +197,14 @@ public class UserServiceTest {
    @Test
    public  void setLimitedMonthlySuccess(){
         when(userRepository.findByUserId(ID)).thenReturn(userEntity);
-        String actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
+        User actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
         Assert.assertEquals("set the monthly limited at " + ID, actual );
    }
 
    @Test
    public  void setLimitMonthlyFail(){
         when(userRepository.findByUserId(ID)).thenReturn(null);
-        String actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
+        User actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
         Assert.assertEquals("Id of user does not exist",actual);
    }
 

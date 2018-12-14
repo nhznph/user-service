@@ -47,7 +47,7 @@ public class V1ApiController implements V1Api {
         return delegate.searchUserByName(firstName, lastName);
     }
 
-    public ResponseEntity<String> setLimitedMonthly(@ApiParam(value = "user Id",required=true) @PathVariable("userId") String userId,@NotNull @ApiParam(value = "monthly limited", required = true) @Valid @RequestParam(value = "limit", required = true) String limit) {
+    public ResponseEntity<User> setLimitedMonthly(@ApiParam(value = "user Id",required=true) @PathVariable("userId") String userId,@NotNull @ApiParam(value = "monthly limited", required = true) @Valid @RequestParam(value = "limit", required = true) String limit) {
         return delegate.setLimitedMonthly(userId, limit);
     }
 

@@ -73,7 +73,7 @@ paths:
       consumes:
       - "application/json"
       produces:
-      - "application/json"
+      - "text/plain"
       parameters:
       - in: "path"
         name: "id"
@@ -245,11 +245,10 @@ paths:
         description: monthly limited
         required: true
       responses:
-        '200':
-          description: "set the monthly limit"
+        200:
+          description: "successful operation"
           schema:
-            type: string
-            description: set the monthly limit.
+            $ref: "#/definitions/User"
         '500':
           description: Internal Server Error
 definitions:

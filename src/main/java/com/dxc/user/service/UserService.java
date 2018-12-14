@@ -29,7 +29,7 @@ public class UserService {
         UserEntity userEntity = new UserEntity();
         String idCheck = userRepository.findByUserExist(user.getId());
         if (idCheck != null) {
-            return "Id exist!!";
+          throw new UserException(UserError.USER_EXIST_BEFORE);
         } else {
             userEntity.setId(user.getId());
             userEntity.setFirstName(user.getFirstName());
@@ -84,18 +84,18 @@ public class UserService {
             uE.setAddress(user.getAddress());
             uE.setModifiedDate(new Date());
             userRepository.saveAndFlush(uE);
-            return "update successfully" + " at " + id;
+            return id;
         }
-        return "Id of user does not exist!!";
+       throw new UserException(UserError.USER_INVALID,id);
     }
 
     @Transactional
     public String deleteUser(String id) {
         int i = userRepository.markDeletedByUser(id);
         if (i <= 0) {
-            return "Id of user does not exist or deleted before";
+          throw new UserException(UserError.USER_DOES_NOT_EXIST);
         }
-        return "delete successfully " + id;
+        return  id;
     }
 
     public List<User> searchByName(String firstName, String lastName) {
@@ -111,29 +111,30 @@ public class UserService {
     public String updateActiveUser(String userId) {
         int mark = userRepository.markActivedByUser(userId);
         if (mark <= 0) {
-            return "User does not exist or userId activated";
+           throw new UserException(UserError.MARK_DELETE, userId );
         }
         return userId;
+
     }
 
     @Transactional
     public String updateDeactiveUser(String userId) {
         int mark = userRepository.markDeActivedByUser(userId);
         if (mark <= 0) {
-            return "User does not exist or userId DeActivated";
+            throw new UserException(UserError.MARK_DELETE, userId );
         }
         return userId;
 
     }
 
     @Transactional
-    public String setLimitedMonthly(String id, String limit) {
+    public User setLimitedMonthly(String id, String limit) {
         UserEntity uE = userRepository.findByUserId(id);
         if (uE != null) {
             uE.setLimited(Integer.valueOf(limit));
             userRepository.saveAndFlush(uE);
-            return "set the monthly limited at " + id;
+            return  entity2User(uE);
         }
-        return "Id of user does not exist";
+        throw new UserException(UserError.USER_DOES_NOT_EXIST,id);
     }
 }
