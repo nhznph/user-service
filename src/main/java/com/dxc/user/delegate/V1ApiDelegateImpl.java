@@ -42,7 +42,7 @@ public class V1ApiDelegateImpl implements V1ApiDelegate {
     }
 
     @Override
-    public ResponseEntity<User> setLimitedMonthly(String userId, String limit) {
+    public ResponseEntity<User> setLimitedMonthly(String userId, Integer limit) {
         return ResponseEntity.ok(userService.setLimitedMonthly(userId, limit));
     }
 

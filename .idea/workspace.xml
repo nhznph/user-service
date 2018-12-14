@@ -3,41 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="24b83e67-3a00-4c4d-80ad-2e92c17d43db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dxc/user/common/UserError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dxc/user/common/UserError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dxc/user/delegate/V1ApiDelegateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dxc/user/delegate/V1ApiDelegateImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dxc/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dxc/user/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/Swagger2SpringBoot$ExitException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/Swagger2SpringBoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/ApiOriginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/ApiResponseMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1Api.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1ApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1ApiDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxc/user/api/V1ApiDelegate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/api/config/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/common/UserError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxc/user/common/UserError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/delegate/V1ApiDelegateImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/exception/UserException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dxc/user/Service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dxc/user/Service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dxc/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dxc/user/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/swagger/swagger-input.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swagger/swagger-input.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/RFC3339DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/RFC3339DateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/Swagger2SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/Swagger2SpringBoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiOriginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/ApiResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1ApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1ApiDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/V1ApiDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/config/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/config/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/config/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/config/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/src/main/java/com/dxc/user/api/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dxc/user/Service/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dxc/user/UserServiveApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dxc/user/delegate/UserDelegateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dxc/user/Service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dxc/user/Service/UserServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,27 +50,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
+          <entry key="properties" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
+          <entry key="Properties" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="183" />
+          <entry key="java" value="292" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="183" />
+          <entry key="JAVA" value="292" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="user-service" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -108,20 +90,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+            <state relative-caret-position="322">
+              <caret line="126" column="21" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="21" />
               <folding>
                 <element signature="method#addUser#0;class#UserService#0" />
                 <element signature="method#getAllUser#0;class#UserService#0" />
                 <element signature="method#entity2User#0;class#UserService#0" />
                 <element signature="method#searchUserById#0;class#UserService#0" />
-                <element signature="method#updateUser#0;class#UserService#0" />
                 <element signature="method#deleteUser#0;class#UserService#0" />
                 <element signature="method#searchByName#0;class#UserService#0" />
-                <element signature="method#updateDeactiveUser#0;class#UserService#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dxc/user/Service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="192" column="55" lean-forward="true" selection-start-line="192" selection-start-column="55" selection-end-line="192" selection-end-column="55" />
+              <folding>
+                <element signature="method#entity2User#0;class#UserServiceTest#0" />
               </folding>
             </state>
           </provider>
@@ -130,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/delegate/V1ApiDelegateImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="56">
+              <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -139,10 +131,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
+            <state relative-caret-position="291">
+              <caret line="241" column="17" selection-start-line="241" selection-start-column="17" selection-end-line="241" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -175,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dxc/user/delegate/V1ApiDelegateImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dxc/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dxc/user/Service/UserServiceTest.java" />
       </list>
     </option>
   </component>
@@ -295,6 +293,45 @@
             <path>
               <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="delegate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="user-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -306,7 +343,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544693432022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544780078985" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -321,23 +358,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Swagger2SpringBoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dxc.user.Swagger2SpringBoot" />
+  <component name="RunManager" selected="JUnit.UserDelegateTest">
+    <configuration name="UserDelegateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dxc.user.*" />
+          <option name="PATTERN" value="com.dxc.user.delegate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.dxc.user.delegate" />
+      <option name="MAIN_CLASS_NAME" value="com.dxc.user.delegate.UserDelegateTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dxc.user.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dxc.user.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.dxc.user.Service.UserServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.deActivateUserFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dxc.user.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dxc.user.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.dxc.user.Service.UserServiceTest" />
+      <option name="METHOD_NAME" value="deActivateUserFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.deleteFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dxc.user.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dxc.user.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.dxc.user.Service.UserServiceTest" />
+      <option name="METHOD_NAME" value="deleteFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.updateUserFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dxc.user.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dxc.user.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.dxc.user.Service.UserServiceTest" />
+      <option name="METHOD_NAME" value="updateUserFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiceTest.deActivateUserFail" />
+      <item itemvalue="JUnit.UserServiceTest.deleteFail" />
+      <item itemvalue="JUnit.UserServiceTest.updateUserFail" />
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.UserDelegateTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Swagger2SpringBoot" />
+        <item itemvalue="JUnit.UserDelegateTest" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.updateUserFail" />
+        <item itemvalue="JUnit.UserServiceTest.deleteFail" />
+        <item itemvalue="JUnit.UserServiceTest.deActivateUserFail" />
       </list>
     </recent_temporary>
   </component>
@@ -354,20 +465,52 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceTest_updateUserSuccess - 2018.12.14 at 16h 18m 23s.xml">
+      <configuration name="UserServiceTest.updateUserSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_deleteSuccess - 2018.12.14 at 16h 18m 32s.xml">
+      <configuration name="UserServiceTest.deleteSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitedMonthlySuccess - 2018.12.14 at 16h 18m 54s.xml">
+      <configuration name="UserServiceTest.setLimitedMonthlySuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitedMonthlySuccess - 2018.12.14 at 16h 22m 50s.xml">
+      <configuration name="UserServiceTest.setLimitedMonthlySuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitedMonthlySuccess - 2018.12.14 at 16h 24m 01s.xml">
+      <configuration name="UserServiceTest.setLimitedMonthlySuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitedMonthlySuccess - 2018.12.14 at 16h 24m 18s.xml">
+      <configuration name="UserServiceTest.setLimitedMonthlySuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitMonthlyFail - 2018.12.14 at 16h 24m 54s.xml">
+      <configuration name="UserServiceTest.setLimitMonthlyFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitMonthlyFail - 2018.12.14 at 16h 29m 51s.xml">
+      <configuration name="UserServiceTest.setLimitMonthlyFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_setLimitMonthlyFail - 2018.12.14 at 16h 30m 30s.xml">
+      <configuration name="UserServiceTest.setLimitMonthlyFail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_deActivateUserFail - 2018.12.14 at 16h 31m 43s.xml">
+      <configuration name="UserServiceTest.deActivateUserFail" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="20" y="13" width="1262" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25374377" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.25374377" />
+      <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.25374377" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50092083" side_tool="true" weight="0.25374377" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32880098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,7 +518,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880098" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32880098" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32880098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="102" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/common/UserError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -411,33 +547,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="28" column="102" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="102" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/delegate/V1ApiDelegateImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="56">
+          <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/swagger/swagger-input.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="241" column="17" selection-start-line="241" selection-start-column="17" selection-end-line="241" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dxc/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+        <state relative-caret-position="322">
+          <caret line="126" column="21" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="21" />
           <folding>
             <element signature="method#addUser#0;class#UserService#0" />
             <element signature="method#getAllUser#0;class#UserService#0" />
             <element signature="method#entity2User#0;class#UserService#0" />
             <element signature="method#searchUserById#0;class#UserService#0" />
-            <element signature="method#updateUser#0;class#UserService#0" />
             <element signature="method#deleteUser#0;class#UserService#0" />
             <element signature="method#searchByName#0;class#UserService#0" />
-            <element signature="method#updateDeactiveUser#0;class#UserService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dxc/user/Service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="192" column="55" lean-forward="true" selection-start-line="192" selection-start-column="55" selection-end-line="192" selection-end-column="55" />
+          <folding>
+            <element signature="method#entity2User#0;class#UserServiceTest#0" />
           </folding>
         </state>
       </provider>

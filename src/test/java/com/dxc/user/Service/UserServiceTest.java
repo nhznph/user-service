@@ -89,10 +89,10 @@ public class UserServiceTest {
         Assert.assertEquals(userEntity.getId(), res);
     }
 
-    @Test
+    @Test(expected = UserException.class)
     public  void addUserExist(){
-        when(userRepository.findByUserExist(ID)).thenReturn(ID);
-        Assert.assertEquals("Id exist!!",userService.addUser(user));
+        when(userRepository.findByUserExist(ID)).thenThrow(new UserException(UserError.USER_EXIST_BEFORE));
+        Assert.assertEquals(new UserException(UserError.USER_EXIST_BEFORE),userService.addUser(user));
     }
 
     @Test
@@ -125,32 +125,31 @@ public class UserServiceTest {
         Assert.assertEquals(listUserEntiry,userT);
     }
 
-    @Test
+    @Test(expected = UserException.class)
     public  void updateUserFail(){
         when(userRepository.findByUserId(ID)).thenReturn(null);
-        String actual = userService.updateUser(ID,user);
-        Assert.assertEquals("Id of user does not exist!!",actual);
+        Assert.assertEquals(new UserException(UserError.USER_DOES_NOT_EXIST,ID),userService.updateUser(ID,user));
     }
 
     @Test
     public  void  updateUserSuccess(){
         when(userRepository.findByUserId(ID)).thenReturn(userEntity);
         String actual = userService.updateUser(ID,user);
-        Assert.assertEquals("update successfully" +" at " +ID,actual);
+        Assert.assertEquals(ID,actual);
     }
 
-    @Test
+    @Test(expected = UserException.class)
     public  void deleteFail(){
         when(userRepository.markDeletedByUser(ID)).thenReturn(0);
         String  actual =userService.deleteUser(ID);
-        Assert.assertEquals("Id of user does not exist or deleted before",actual);
+        Assert.assertEquals(new UserException(UserError.USER_DOES_NOT_EXIST),actual);
     }
 
     @Test
     public void deleteSuccess(){
         when(userRepository.markDeletedByUser(ID)).thenReturn(1);
         String actual = userService.deleteUser(ID);
-        Assert.assertEquals("delete successfully " + ID,actual);
+        Assert.assertEquals(ID,actual);
     }
 
     @Test
@@ -173,11 +172,11 @@ public class UserServiceTest {
         Assert.assertEquals(ID,actual);
     }
 
-    @Test
+    @Test(expected = UserException.class)
     public  void activateUserFail(){
-        when(userRepository.markActivedByUser(ID)).thenReturn(0);
+        when(userRepository.markActivedByUser(ID)).thenReturn(0); // or thenRow
         String actual = userService.updateActiveUser(ID);
-        Assert.assertEquals("User does not exist or userId activated",actual);
+        Assert.assertEquals(new UserException(UserError.MARK_DELETE,ID),actual);
     }
 
     @Test
@@ -187,25 +186,26 @@ public class UserServiceTest {
         Assert.assertEquals(ID,actual);
     }
 
-    @Test
+    @Test(expected = UserException.class)
     public  void deActivateUserFail(){
         when(userRepository.markDeActivedByUser(ID)).thenReturn(0);
         String actual = userService.updateDeactiveUser(ID);
-        Assert.assertEquals("User does not exist or userId DeActivated",actual);
+        Assert.assertEquals(new UserException(UserError.MARK_DELETE,ID),actual);
     }
 
    @Test
    public  void setLimitedMonthlySuccess(){
         when(userRepository.findByUserId(ID)).thenReturn(userEntity);
-        User actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
-        Assert.assertEquals("set the monthly limited at " + ID, actual );
+        User actual = userService.setLimitedMonthly(ID,LIMIT);
+       user = entity2User(userEntity);
+        Assert.assertEquals( user, actual );
    }
 
-   @Test
+   @Test(expected = UserException.class)
    public  void setLimitMonthlyFail(){
-        when(userRepository.findByUserId(ID)).thenReturn(null);
-        User actual = userService.setLimitedMonthly(ID,String.valueOf(LIMIT));
-        Assert.assertEquals("Id of user does not exist",actual);
+        when(userRepository.findByUserId(ID)).thenThrow(new UserException(UserError.USER_DOES_NOT_EXIST,ID));
+        User actual = userService.setLimitedMonthly(ID,LIMIT);
+        Assert.assertEquals(new UserException(UserError.USER_DOES_NOT_EXIST,ID),actual);
    }
 
 

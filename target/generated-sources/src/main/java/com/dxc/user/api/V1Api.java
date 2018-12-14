@@ -89,7 +89,7 @@ public interface V1Api {
     @RequestMapping(value = "/v1/{userId}/setLimited",
         produces = { "application/json" }, 
         method = RequestMethod.PUT)
-    ResponseEntity<User> setLimitedMonthly(@ApiParam(value = "user Id",required=true) @PathVariable("userId") String userId,@NotNull @ApiParam(value = "monthly limited", required = true) @Valid @RequestParam(value = "limit", required = true) String limit);
+    ResponseEntity<User> setLimitedMonthly(@ApiParam(value = "user Id",required=true) @PathVariable("userId") String userId,@NotNull @ApiParam(value = "monthly limited", required = true) @Valid @RequestParam(value = "limit", required = true) Integer limit);
 
 
     @ApiOperation(value = "Activate user.", nickname = "updateActivateUser", notes = "Activate user .", response = String.class, tags={ "admin", })

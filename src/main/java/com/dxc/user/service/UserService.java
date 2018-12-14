@@ -85,8 +85,9 @@ public class UserService {
             uE.setModifiedDate(new Date());
             userRepository.saveAndFlush(uE);
             return id;
+        }else {
+            throw new UserException(UserError.USER_INVALID, id);
         }
-       throw new UserException(UserError.USER_INVALID,id);
     }
 
     @Transactional
@@ -128,13 +129,14 @@ public class UserService {
     }
 
     @Transactional
-    public User setLimitedMonthly(String id, String limit) {
+    public User setLimitedMonthly(String id, Integer limit) {
         UserEntity uE = userRepository.findByUserId(id);
         if (uE != null) {
-            uE.setLimited(Integer.valueOf(limit));
+            uE.setLimited(limit);
             userRepository.saveAndFlush(uE);
             return  entity2User(uE);
         }
-        throw new UserException(UserError.USER_DOES_NOT_EXIST,id);
+        throw new UserException(UserError.USER_DOES_NOT_EXIST, id);
+
     }
 }

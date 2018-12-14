@@ -44,7 +44,7 @@ public interface V1ApiDelegate {
      * @see V1Api#setLimitedMonthly
      */
     ResponseEntity<User> setLimitedMonthly(String userId,
-        String limit);
+        Integer limit);
 
     /**
      * @see V1Api#updateActivateUser
